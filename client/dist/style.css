@@ -1,0 +1,157 @@
+*{
+     background-color: rgb(238, 227, 207);
+} 
+
+h1 {
+    margin-top: 40px; 
+    font-size: 60px;
+    color:#020c11;
+    text-align: center;}
+    
+h4 {
+    padding: 20px;
+    background-color: #2308a6;
+    border-radius:.5rem;
+    box-shadow: inset -1px -.5px rgba(0,0,0,.2);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border-bottom: solid black thin;
+    }
+h2  {
+    font-size: 40px;
+    text-align: center;
+    }
+p
+{
+    font-size: 30px;
+    /* margin-left: 30px; */
+    line-height: normal;
+    font-weight: bold;
+
+
+}
+.container
+{
+    margin-top : 5%;
+}
+.choisir 
+{
+  margin-left: 120px;
+}
+.body
+{
+    min-width:97vw !important ;
+    text-align: center;
+    
+}
+.addcontainer 
+{
+    margin-left: 5%;
+    display:flexbox;
+    position:relative;
+    
+} 
+
+.btn-delete,
+.btn-update 
+{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 180px;
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.btn-update{
+    background-color: rgb(80, 215, 80);
+    font-weight: bold;
+
+}
+.btn-ok 
+{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(232, 161, 216);
+    font-weight: bold;
+
+}
+.btn {
+    border: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-addItem
+{
+
+    flex-direction:row;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 100;
+    background:#9b7605;
+    color: #fff;
+    margin-left: 80px;
+    
+}
+
+
+.addcontainer input 
+{
+text-align:justify ;
+padding: 5px 10px;
+font-size: 16px;
+color:rgb(101, 99, 99);
+opacity:.8;
+border-width: 8px;
+font-weight: bold;
+
+}
+.adcontainer input
+{
+    text-align:justify ;
+    padding: 5px 10px;
+    font-size: 16px;
+    color:rgb(101, 99, 99);
+    opacity:.8;
+    border-width: 8px;
+    float:left;
+    margin-left: 50px;
+    
+}
+.App input
+{
+    text-align:justify ;
+    padding: 5px 10px;
+    margin-left: 5px
+}
+.btn-upload
+{
+    flex-direction:row;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 50;
+    background: white;
+    color: black;
+    margin-left: 3px;
+}
+
+
+
+
+    
